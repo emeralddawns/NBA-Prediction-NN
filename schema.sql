@@ -52,7 +52,7 @@ CREATE TABLE reg_season_stats (
 	off_fg_percent int,
 	off_3p int,
 	off_3pa int,
-	off_3pa_percent int,
+	off_3p_percent int,
 	off_2p int,
 	off_2pa int,
 	off_2p_percent int,
@@ -113,8 +113,7 @@ CREATE TABLE reg_season_stats (
 	def_tov_percent int,
 	def_drb_percent int,
 	def_ft_fga int,
-	attend_g int,
-	Foreign key (team) references teams(team_name)
+	attend_g int
 );
 
 drop table if exists post_season_stats cascade;
@@ -126,7 +125,7 @@ CREATE TABLE post_season_stats (
 	off_fg_percent int,
 	off_3p int,
 	off_3pa int,
-	off_3pa_percent int,
+	off_3p_percent int,
 	off_2p int,
 	off_2pa int,
 	off_2p_percent int,
