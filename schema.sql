@@ -186,7 +186,5 @@ CREATE TABLE post_season_stats (
 	def_tov_percent int,
 	def_drb_percent int,
 	def_ft_fga int,
-	attend_g int,
-	Primary key (team),
-	Foreign key (team) references teams(team_name)
+	attend_g int
 );
