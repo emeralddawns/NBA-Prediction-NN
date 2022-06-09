@@ -16,11 +16,13 @@ CREATE TABLE matches (
     Primary key (match_id)
 );
 
-drop table if exists results cascade;
-CREATE TABLE results (
-    match_id varchar  NOT NULL,
+drop table if exists reg_season_matches cascade;
+CREATE TABLE reg_season_matches (
     team varchar not null,
-	minutes int,
+	type varchar,
+	opponent varchar,
+	w_l varchar,
+	min int,
 	pts int,
 	fgm int,
 	fga int,
@@ -39,8 +41,33 @@ CREATE TABLE results (
 	point_diff int,
 	Id Serial,
 	Primary key (Id)
-	Foreign key (match_id) references matches(match_id),
-	Foreign key (team) references teams(abbreviation)
+);
+
+drop table if exists post_season_matches cascade;
+CREATE TABLE post_season_matches (
+    team varchar not null,
+	type varchar,
+	opponent varchar,
+	w_l varchar,
+	min int,
+	pts int,
+	fgm int,
+	fga int,
+	threepm int,
+	threepa int,
+	ftm int,
+	fta int,
+	oreb int,
+	dreb int,
+	reb int,
+	ast int,
+	stl int,
+	blk int,
+	tov int,
+	pf int,
+	point_diff int,
+	Id Serial,
+	Primary key (Id)
 );
 
 drop table if exists reg_season_stats cascade;
