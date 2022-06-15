@@ -1,4 +1,9 @@
 # Project-4
+Main Files:
+
+**scraping_data.ipynb**: Used for extracting/scraping data from various sites containing NBA stats.
+**nba_team_stats_cleaned.ipynb**: Used to transform and load data into pgAdmin tables.
+**NBA_Analysis.ipynb**: Used to pull data from pgAdmin tables, prepare the data for the neural network model, and generate a prediction for an upcoming game.
 
 NBA Data Column Name Glossary:
 
@@ -26,7 +31,9 @@ Per Game Stats:
     (Off/Def) TOV -- Turnovers
     (Off/Def) PF -- Personal Fouls
     (Off/Def) PTS -- Points
-    Advanced Stats
+    
+Advanced Stats:
+    
     Age -- Player's age on February 1 of the season
     W -- Wins
     L -- Losses
