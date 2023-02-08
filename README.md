@@ -6,7 +6,7 @@ Main Files:
 
 **nba_team_stats_cleaned.ipynb**: Transforms and loads data tables into SQL.
 
-**NBA_Analysis.ipynb**: Pulls data from SQL tables, prepares the data for the neural network model, and generates a prediction for an upcoming game.
+**NBA_Analysis.ipynb**: Pulls data from SQL tables, prepares the data for the neural network model, and generates a prediction for an upcoming game. There is an option to choose whether or not to add post-season data to the model. The main model is created using TensorFlow with manual inputs. This model is compared to a KerasTuner automated optimization search. There are other models utilized in the "Alternate Experiments" section. 
 
 
 
