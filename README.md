@@ -1,13 +1,13 @@
-# Project-4
+# Predicting Outcomes for the NBA 2021-22 Season
+
 Main Files:
 
-**scraping_data.ipynb**: Used for extracting/scraping data from various sites containing NBA stats.
+**scraping_data.ipynb**: Uses Selenium for extracting/scraping data from the NBA website.
 
-**pgAdmin**: Folder contains **schema.sql** used to set up table schema in pgAdmin, and **queries.sql** for verifying information in tables and deleting if necessary.
+**nba_team_stats_cleaned.ipynb**: Transforms and loads data tables into SQL.
 
-**nba_team_stats_cleaned.ipynb**: Used to transform and load data into pgAdmin tables.
+**NBA_Analysis.ipynb**: Pulls data from SQL tables, prepares the data for the neural network model, and generates a prediction for an upcoming game.
 
-**NBA_Analysis.ipynb**: Used to pull data from pgAdmin tables, prepare the data for the neural network model, and generate a prediction for an upcoming game.
 
 
 NBA Data Column Name Glossary:
