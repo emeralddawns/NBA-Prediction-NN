@@ -3,8 +3,6 @@ Main Files:
 
 **scraping_data.ipynb**: Used for extracting/scraping data from various sites containing NBA stats.
 
-**pgAdmin**: Folder contains **schema.sql** used to set up table schema in pgAdmin, and **queries.sql** for verifying information in tables and deleting if necessary.
-
 **nba_team_stats_cleaned.ipynb**: Used to transform and load data into pgAdmin tables.
 
 **NBA_Analysis.ipynb**: Used to pull data from pgAdmin tables, prepare the data for the neural network model, and generate a prediction for an upcoming game.
