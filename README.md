@@ -9,6 +9,7 @@ Main Files:
 **NBA_Analysis.ipynb**: Pulls data from SQL tables, prepares the data for the neural network model, and generates a prediction for an upcoming game.
 
 
+
 NBA Data Column Name Glossary:
 
 Per Game Stats:
